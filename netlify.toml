@@ -3,7 +3,9 @@
   publish = ".output/public"
 
 [build.environment]
-  NODE_VERSION = "18"
+  NODE_VERSION = "22.13.0"   # or newer 22.x LTS
+  NPM_FLAGS = "--legacy-peer-deps"  # optional; only if your install needs it
+
 
 [[redirects]]
   from = "/*"
