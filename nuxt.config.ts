@@ -4,11 +4,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   
   // Configure for static generation (SSG)
-  ssr: true,
+  ssr: false,
   nitro: {
-    prerender: {
-      routes: ['/']
-    }
+    preset: 'static'
   },
   
   // Configure for Netlify deployment
