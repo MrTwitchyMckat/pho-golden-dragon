@@ -2,7 +2,19 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
+  
+  // Configure for static generation (SSG)
+  ssr: true,
+  nitro: {
+    prerender: {
+      routes: ['/']
+    }
+  },
+  
+  // Configure for Netlify deployment
   app: {
+    baseURL: '/',
+    buildAssetsDir: '/_nuxt/',
     head: {
       link: [
         {
@@ -21,7 +33,7 @@ export default defineNuxtConfig({
       ],
       style: [
         {
-          children: `
+          innerHTML: `
             :root {
               --font-primary: 'Montserrat', sans-serif;
               --font-secondary: 'Quando', serif;
