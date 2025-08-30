@@ -6,7 +6,7 @@
       <div class="menu-grid">
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Pot stickers (6)</span>
+            <span class="item-name">Pot Stickers (6)</span>
             <span class="item-price">$8.99</span>
           </div>
           <p class="item-description">
@@ -15,7 +15,7 @@
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Grilled pork rolls (2)</span>
+            <span class="item-name">Grilled Pork Rolls (2)</span>
             <span class="item-price">$8.99</span>
           </div>
           <p class="item-description">
@@ -24,7 +24,7 @@
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Chicken wings (6)</span>
+            <span class="item-name">Chicken Wings (6)</span>
             <span class="item-price">$12.99</span>
           </div>
           <p class="item-description">
@@ -33,7 +33,7 @@
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Egg rolls (5)</span>
+            <span class="item-name">Egg Rolls (5)</span>
             <span class="item-price">$8.99</span>
           </div>
           <p class="item-description">
@@ -42,7 +42,7 @@
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Bo bia (2)</span>
+            <span class="item-name">Bo Bia (2)</span>
             <span class="item-price">$8.99</span>
           </div>
           <p class="item-description">
@@ -51,7 +51,7 @@
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Seasoned fries</span>
+            <span class="item-name">Seasoned Fries</span>
             <span class="item-price">$8.99</span>
           </div>
           <p class="item-description">
@@ -60,7 +60,7 @@
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Spring rolls (2)</span>
+            <span class="item-name">Spring Rolls (2)</span>
             <span class="item-price">$8.99</span>
           </div>
           <p class="item-description">
@@ -78,7 +78,7 @@
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Popcorn chicken</span>
+            <span class="item-name">Popcorn Chicken</span>
             <span class="item-price">$10.99</span>
           </div>
           <p class="item-description">
@@ -124,7 +124,7 @@
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Rare Steak And Tripe Pho</span>
+            <span class="item-name">Rare Steak and Tripe Pho</span>
             <span class="item-price">$14.99</span>
           </div>
           <p class="item-description">Pho with rare steak and crunchy tripe</p>
@@ -150,7 +150,7 @@
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Rare Steak And Tendon Pho</span>
+            <span class="item-name">Rare Steak and Tendon Pho</span>
             <span class="item-price">$14.99</span>
           </div>
           <p class="item-description">Pho with rare steak and soft tendon</p>
@@ -164,7 +164,7 @@
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Rare Steak And Brisket Pho</span>
+            <span class="item-name">Rare Steak and Brisket Pho</span>
             <span class="item-price">$14.99</span>
           </div>
           <p class="item-description">Pho with rare steak and tender brisket</p>
@@ -609,7 +609,7 @@
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Ca phe sua da</span>
+            <span class="item-name">Ca Phe Sua Da</span>
             <span class="item-price">$4.99</span>
           </div>
           <p class="item-description">
@@ -654,7 +654,7 @@
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Aloe vera</span>
+            <span class="item-name">Aloe Vera</span>
             <span class="item-price">$2.99</span>
           </div>
         </div>
@@ -685,7 +685,7 @@
       <div class="boba-container">
         <div class="boba-header">
           <span class="boba-title">Boba</span>
-          <span class="boba-price">$4.99</span>
+          <span class="boba-price">$5.99</span>
         </div>
         <p class="boba-subtitle">Available Flavors</p>
         <ul class="flavors-list">
