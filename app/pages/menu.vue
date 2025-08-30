@@ -10,7 +10,16 @@
             <span class="item-price">$8.99</span>
           </div>
           <p class="item-description">
-            Pan-seared dumplings with pork and vegetables.
+            Pan-seared dumplings with pork and vegetables
+          </p>
+        </div>
+        <div class="menu-item">
+          <div class="item-header">
+            <span class="item-name">Grilled pork rolls (2)</span>
+            <span class="item-price">$8.99</span>
+          </div>
+          <p class="item-description">
+            Fresh rolls with grilled pork and herbs
           </p>
         </div>
         <div class="menu-item">
@@ -18,68 +27,63 @@
             <span class="item-name">Chicken wings (6)</span>
             <span class="item-price">$12.99</span>
           </div>
-          <p class="item-description">Vietnamese-style or Ghost Wings 🔥🔥</p>
+          <p class="item-description">
+            Vietnamese-style Wings or Ghost Wings 🔥🔥
+          </p>
+        </div>
+        <div class="menu-item">
+          <div class="item-header">
+            <span class="item-name">Egg rolls (5)</span>
+            <span class="item-price">$8.99</span>
+          </div>
+          <p class="item-description">
+            Crispy Vietnamese-style rolls with pork, shrimp, and vegetables
+          </p>
+        </div>
+        <div class="menu-item">
+          <div class="item-header">
+            <span class="item-name">Bo bia (2)</span>
+            <span class="item-price">$8.99</span>
+          </div>
+          <p class="item-description">
+            Fresh rolls with chinese sausage, jicama, herbs, and dried shrimp
+          </p>
+        </div>
+        <div class="menu-item">
+          <div class="item-header">
+            <span class="item-name">Seasoned fries</span>
+            <span class="item-price">$8.99</span>
+          </div>
+          <p class="item-description">
+            Golden fries tossed in savory seasonings
+          </p>
         </div>
         <div class="menu-item">
           <div class="item-header">
             <span class="item-name">Spring rolls (2)</span>
-            <span class="item-price">$6.99</span>
+            <span class="item-price">$8.99</span>
           </div>
           <p class="item-description">
-            Fresh rice paper rolls with shrimp, pork, and herbs.
+            Fresh rolls with shrimp, pork, herbs, and noodles
           </p>
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Egg rolls (2)</span>
-            <span class="item-price">$5.99</span>
+            <span class="item-name">Crab Rangoon (6)</span>
+            <span class="item-price">$8.99</span>
           </div>
           <p class="item-description">
-            Crispy fried rolls with pork and vegetables.
+            Crispy wontons filled with creamy crab mix
           </p>
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Crispy wontons (8)</span>
-            <span class="item-price">$7.99</span>
-          </div>
-          <p class="item-description">
-            Deep-fried wontons with cream cheese and crab.
-          </p>
-        </div>
-        <div class="menu-item">
-          <div class="item-header">
-            <span class="item-name">Salt & pepper shrimp</span>
-            <span class="item-price">$11.99</span>
-          </div>
-          <p class="item-description">
-            Crispy shrimp with salt and pepper seasoning.
-          </p>
-        </div>
-        <div class="menu-item">
-          <div class="item-header">
-            <span class="item-name">Salt & pepper calamari</span>
+            <span class="item-name">Popcorn chicken</span>
             <span class="item-price">$10.99</span>
           </div>
           <p class="item-description">
-            Crispy calamari with salt and pepper seasoning.
+            Crispy, spiced chicken bites with fried basil
           </p>
-        </div>
-        <div class="menu-item">
-          <div class="item-header">
-            <span class="item-name">Fried tofu</span>
-            <span class="item-price">$6.99</span>
-          </div>
-          <p class="item-description">
-            Crispy fried tofu with sweet chili sauce.
-          </p>
-        </div>
-        <div class="menu-item">
-          <div class="item-header">
-            <span class="item-name">Edamame</span>
-            <span class="item-price">$4.99</span>
-          </div>
-          <p class="item-description">Steamed soybeans with sea salt.</p>
         </div>
       </div>
     </div>
@@ -94,85 +98,76 @@
             <span class="item-price">$14.99</span>
           </div>
           <p class="item-description">
-            Special pho with rare steak, brisket, tripe, tendon, and meatballs.
+            Special pho with rare steak, brisket, tripe, tendon, and meatballs
           </p>
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Beef Pho</span>
-            <span class="item-price">$13.99</span>
+            <span class="item-name">Rare Steak Pho</span>
+            <span class="item-price">$14.99</span>
+          </div>
+          <p class="item-description">Pho with thinly sliced rare steak</p>
+        </div>
+        <div class="menu-item">
+          <div class="item-header">
+            <span class="item-name">Beef Meatball Pho</span>
+            <span class="item-price">$14.99</span>
+          </div>
+          <p class="item-description">Pho with savory beef meatballs</p>
+        </div>
+        <div class="menu-item">
+          <div class="item-header">
+            <span class="item-name">Roast Duck Noodle Soup</span>
+            <span class="item-price">$16.99</span>
+          </div>
+          <p class="item-description">Egg noodle soup with flavorful duck</p>
+        </div>
+        <div class="menu-item">
+          <div class="item-header">
+            <span class="item-name">Rare Steak And Tripe Pho</span>
+            <span class="item-price">$14.99</span>
+          </div>
+          <p class="item-description">Pho with rare steak and crunchy tripe</p>
+        </div>
+        <div class="menu-item">
+          <div class="item-header">
+            <span class="item-name">Long's Special Noodle</span>
+            <span class="item-price">$21.99</span>
           </div>
           <p class="item-description">
-            Traditional beef pho with rice noodles and herbs.
+            Dry noodle with shrimp, calamari, crab claw, cha siu, chicken. Broth
+            on side
           </p>
+        </div>
+        <div class="menu-item">
+          <div class="item-header">
+            <span class="item-name">Seafood Egg Noodle Soup</span>
+            <span class="item-price">$14.99</span>
+          </div>
+          <p class="item-description">
+            Soup with shrimp, crab, and calamari with rice noodle or egg noodle
+          </p>
+        </div>
+        <div class="menu-item">
+          <div class="item-header">
+            <span class="item-name">Rare Steak And Tendon Pho</span>
+            <span class="item-price">$14.99</span>
+          </div>
+          <p class="item-description">Pho with rare steak and soft tendon</p>
         </div>
         <div class="menu-item">
           <div class="item-header">
             <span class="item-name">Chicken Pho</span>
-            <span class="item-price">$12.99</span>
-          </div>
-          <p class="item-description">
-            Chicken pho with rice noodles and fresh herbs.
-          </p>
-        </div>
-        <div class="menu-item">
-          <div class="item-header">
-            <span class="item-name">Shrimp Pho</span>
-            <span class="item-price">$13.99</span>
-          </div>
-          <p class="item-description">
-            Shrimp pho with rice noodles and vegetables.
-          </p>
-        </div>
-        <div class="menu-item">
-          <div class="item-header">
-            <span class="item-name">Vegetable Pho</span>
-            <span class="item-price">$11.99</span>
-          </div>
-          <p class="item-description">
-            Vegetarian pho with tofu and fresh vegetables.
-          </p>
-        </div>
-        <div class="menu-item">
-          <div class="item-header">
-            <span class="item-name">Bun Bo Hue</span>
-            <span class="item-price">$16.99</span>
-          </div>
-          <p class="item-description">
-            Spicy Beef Noodle Soup. Bold and spicy broth with beef and pork.
-          </p>
-        </div>
-        <div class="menu-item">
-          <div class="item-header">
-            <span class="item-name">Mi Xao</span>
-            <span class="item-price">$13.99</span>
-          </div>
-          <p class="item-description">
-            Stir-fried egg noodles with vegetables and choice of protein.
-          </p>
-        </div>
-        <div class="menu-item">
-          <div class="item-header">
-            <span class="item-name">Hu Tieu</span>
             <span class="item-price">$14.99</span>
           </div>
-          <p class="item-description">Rice noodle soup with pork and shrimp.</p>
+          <p class="item-description">Classic pho with tender chicken slices</p>
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Mi Vit Tiem</span>
-            <span class="item-price">$15.99</span>
+            <span class="item-name">Rare Steak And Brisket Pho</span>
+            <span class="item-price">$14.99</span>
           </div>
-          <p class="item-description">
-            Duck noodle soup with herbs and vegetables.
-          </p>
-        </div>
-        <div class="menu-item">
-          <div class="item-header">
-            <span class="item-name">Mi Ga</span>
-            <span class="item-price">$13.99</span>
-          </div>
-          <p class="item-description">Chicken noodle soup with egg noodles.</p>
+          <p class="item-description">Pho with rare steak and tender brisket</p>
         </div>
       </div>
     </div>
@@ -183,66 +178,66 @@
       <div class="menu-grid">
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Bun Thit Nuong</span>
-            <span class="item-price">$15.99</span>
-          </div>
-          <p class="item-description">
-            Rice vermicelli topped with grilled pork and fresh herbs.
-          </p>
-        </div>
-        <div class="menu-item">
-          <div class="item-header">
-            <span class="item-name">Bun Bo Nuong</span>
+            <span class="item-name">Bun Bo Hue</span>
             <span class="item-price">$16.99</span>
           </div>
           <p class="item-description">
-            Rice vermicelli topped with grilled beef and fresh herbs.
+            Spicy Beef Noodle Soup. Bold and spicy broth with beef and pork
           </p>
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Bun Tom Nuong</span>
+            <span class="item-name">Hu Tieu Nam Vang</span>
             <span class="item-price">$16.99</span>
           </div>
           <p class="item-description">
-            Rice vermicelli topped with grilled shrimp and fresh herbs.
+            Flavorful clear broth with pork, quail eggs, squid, and shrimp,
+            fried shallots and garlic
           </p>
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Com Thit Nuong</span>
-            <span class="item-price">$15.99</span>
-          </div>
-          <p class="item-description">
-            Rice topped with grilled pork and fresh herbs.
-          </p>
-        </div>
-        <div class="menu-item">
-          <div class="item-header">
-            <span class="item-name">Com Bo Nuong</span>
+            <span class="item-name">Bun Rieu</span>
             <span class="item-price">$16.99</span>
           </div>
           <p class="item-description">
-            Rice topped with grilled beef and fresh herbs.
+            Tangy tomato broth with crab, tofu, and thin rice noodles
           </p>
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Lemongrass Chicken</span>
-            <span class="item-price">$14.99</span>
+            <span class="item-name">Banh Xeo</span>
+            <span class="item-price">$17.99</span>
           </div>
           <p class="item-description">
-            Grilled chicken with lemongrass marinade.
+            Crispy crepe with pork, shrimp, mung bean, beansprout, and carrot
           </p>
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Honey Walnut Shrimp</span>
-            <span class="item-price">$19.99</span>
+            <span class="item-name">Beef Stew Noodle Soup</span>
+            <span class="item-price">$16.99</span>
           </div>
           <p class="item-description">
-            Crispy shrimp coated in a sweet honey glaze, topped with candied
-            walnuts.
+            Vietnamese stew with tender beef with rice noodle or egg noodle
+          </p>
+        </div>
+        <div class="menu-item">
+          <div class="item-header">
+            <span class="item-name">Beef Stew Soup + Bread</span>
+            <span class="item-price">$16.99</span>
+          </div>
+          <p class="item-description">
+            Vietnamese stew with tender beef and Vietnamese baguette
+          </p>
+        </div>
+        <div class="menu-item">
+          <div class="item-header">
+            <span class="item-name">Banh Canh Cua</span>
+            <span class="item-price">$16.99</span>
+          </div>
+          <p class="item-description">
+            Thick, savory broth with crab and chewy udon noodles
           </p>
         </div>
       </div>
@@ -261,7 +256,7 @@
             <span class="item-price">$15.99</span>
           </div>
           <p class="item-description">
-            Rice vermicelli topped with grilled pork and fresh herbs.
+            Rice vermicelli topped with grilled pork and fresh herbs
           </p>
         </div>
         <div class="menu-item">
@@ -270,7 +265,7 @@
             <span class="item-price">$16.99</span>
           </div>
           <p class="item-description">
-            Rice vermicelli topped with grilled beef and fresh herbs.
+            Rice vermicelli with marinated, grilled beef and herbs
           </p>
         </div>
         <div class="menu-item">
@@ -279,7 +274,7 @@
             <span class="item-price">$16.99</span>
           </div>
           <p class="item-description">
-            Rice vermicelli topped with grilled shrimp and fresh herbs.
+            Rice vermicelli topped with grilled shrimp and fresh herbs
           </p>
         </div>
         <div class="menu-item">
@@ -288,7 +283,7 @@
             <span class="item-price">$16.99</span>
           </div>
           <p class="item-description">
-            Rice vermicelli topped with stir-fried beef and fresh herbs.
+            Rice vermicelli with stir-fried beef, vegetables, and herbs
           </p>
         </div>
       </div>
@@ -297,15 +292,24 @@
     <!-- Rice Dishes Section -->
     <div class="menu-section">
       <h2 class="section-header">Rice Dishes</h2>
-      <p class="modifier-text">Grilled shrimp+$4 Egg Rolls +$3 Fried Egg +$3</p>
+      <p class="modifier-text">
+        Grilled Shrimp +$4 Egg Rolls +$3 Fried Egg +$3
+      </p>
       <div class="menu-grid">
         <div class="menu-item">
           <div class="item-header">
             <span class="item-name">Com Thit Nuong</span>
             <span class="item-price">$15.99</span>
           </div>
+          <p class="item-description">Steamed rice served with grilled pork</p>
+        </div>
+        <div class="menu-item">
+          <div class="item-header">
+            <span class="item-name">Korean Shortribs Over Rice</span>
+            <span class="item-price">$19.99</span>
+          </div>
           <p class="item-description">
-            Rice topped with grilled pork and fresh herbs.
+            Tender, marinated short ribs served over steamed rice
           </p>
         </div>
         <div class="menu-item">
@@ -314,7 +318,16 @@
             <span class="item-price">$16.99</span>
           </div>
           <p class="item-description">
-            Rice topped with grilled beef and fresh herbs.
+            Steamed rice topped with marinated, grilled beef
+          </p>
+        </div>
+        <div class="menu-item">
+          <div class="item-header">
+            <span class="item-name">Beef Stew Over Rice</span>
+            <span class="item-price">$16.99</span>
+          </div>
+          <p class="item-description">
+            Hearty Vietnamese beef stew served with steamed rice
           </p>
         </div>
         <div class="menu-item">
@@ -323,7 +336,17 @@
             <span class="item-price">$16.99</span>
           </div>
           <p class="item-description">
-            Roast duck over rice with baby boo choy.
+            Savory roast duck served with baby bok choy over rice with a tangy
+            sauce
+          </p>
+        </div>
+        <div class="menu-item">
+          <div class="item-header">
+            <span class="item-name">Heart Stopper</span>
+            <span class="item-price">$21.99</span>
+          </div>
+          <p class="item-description">
+            Shrimp and pork fried rice with grilled pork and fried egg
           </p>
         </div>
         <div class="menu-item">
@@ -332,30 +355,8 @@
             <span class="item-price">$15.99</span>
           </div>
           <p class="item-description">
-            Crispy salted chicken over rice - crispy perfection.
-          </p>
-        </div>
-        <div class="menu-item">
-          <div class="item-header">
-            <span class="item-name">Korean Shortribs Over Rice</span>
-            <span class="item-price">$19.99</span>
-          </div>
-          <p class="item-description">Korean-style shortribs over rice.</p>
-        </div>
-        <div class="menu-item">
-          <div class="item-header">
-            <span class="item-name">Beef Stew Over Rice</span>
-            <span class="item-price">$16.99</span>
-          </div>
-          <p class="item-description">Tender beef stew over rice.</p>
-        </div>
-        <div class="menu-item">
-          <div class="item-header">
-            <span class="item-name">Heart Stopper</span>
-            <span class="item-price">$21.99</span>
-          </div>
-          <p class="item-description">
-            Shrimp and pork fried rice with grilled pork and fried egg.
+            Tender chicken braised and fried to crispy perfection seated over
+            steamed rice
           </p>
         </div>
         <div class="menu-item">
@@ -364,7 +365,8 @@
             <span class="item-price">$24.99</span>
           </div>
           <p class="item-description">
-            Roast duck and tender roast pork over rice.
+            Roast duck and tender roast pork over rice, drizzled with
+            savory-sweet soy sauce
           </p>
         </div>
       </div>
@@ -380,7 +382,7 @@
             <span class="item-price">$14.99</span>
           </div>
           <p class="item-description">
-            Grilled chicken with lemongrass marinade.
+            Stir-fried chicken with onion, and fragrant lemongrass
           </p>
         </div>
         <div class="menu-item">
@@ -390,7 +392,7 @@
           </div>
           <p class="item-description">
             Silken tofu in a spicy, flavorful Sichuan-style sauce with ground
-            pork.
+            pork
           </p>
         </div>
         <div class="menu-item">
@@ -400,7 +402,7 @@
           </div>
           <p class="item-description">
             Crispy shrimp coated in a sweet honey glaze, topped with candied
-            walnuts.
+            walnuts
           </p>
         </div>
         <div class="menu-item">
@@ -409,7 +411,7 @@
             <span class="item-price">$16.99</span>
           </div>
           <p class="item-description">
-            Crispy calamari with salt and pepper seasoning.
+            Crispy calamari stir-fried with salt, pepper, and scallions
           </p>
         </div>
         <div class="menu-item">
@@ -418,7 +420,7 @@
             <span class="item-price">$16.99</span>
           </div>
           <p class="item-description">
-            Crispy shrimp with salt and pepper seasoning.
+            Shrimp stir-fried with salt, pepper, and scallions
           </p>
         </div>
       </div>
@@ -434,7 +436,16 @@
             <span class="item-price">$14.99</span>
           </div>
           <p class="item-description">
-            Classic pork fried rice with vegetables.
+            Wok-fried rice with seasoned pork and green onion
+          </p>
+        </div>
+        <div class="menu-item">
+          <div class="item-header">
+            <span class="item-name">Shrimp and Pork Fried Rice</span>
+            <span class="item-price">$14.99</span>
+          </div>
+          <p class="item-description">
+            Fried rice with shrimp, pork, and green onion
           </p>
         </div>
         <div class="menu-item">
@@ -443,7 +454,16 @@
             <span class="item-price">$14.99</span>
           </div>
           <p class="item-description">
-            Classic chicken fried rice with vegetables.
+            Wok-fried rice with chicken and green onion
+          </p>
+        </div>
+        <div class="menu-item">
+          <div class="item-header">
+            <span class="item-name">Duck Fried Rice</span>
+            <span class="item-price">$16.99</span>
+          </div>
+          <p class="item-description">
+            Savory fried rice with tender, flavorful duck
           </p>
         </div>
         <div class="menu-item">
@@ -452,31 +472,8 @@
             <span class="item-price">$14.99</span>
           </div>
           <p class="item-description">
-            Classic beef fried rice with vegetables.
+            Flavorful fried rice with tender beef and onion
           </p>
-        </div>
-        <div class="menu-item">
-          <div class="item-header">
-            <span class="item-name">Vegetable Fried Rice</span>
-            <span class="item-price">$14.99</span>
-          </div>
-          <p class="item-description">
-            Vegetarian fried rice with fresh vegetables.
-          </p>
-        </div>
-        <div class="menu-item">
-          <div class="item-header">
-            <span class="item-name">Shrimp and Pork Fried Rice</span>
-            <span class="item-price">$14.99</span>
-          </div>
-          <p class="item-description">Fried rice with shrimp and pork.</p>
-        </div>
-        <div class="menu-item">
-          <div class="item-header">
-            <span class="item-name">Duck Fried Rice</span>
-            <span class="item-price">$16.99</span>
-          </div>
-          <p class="item-description">Fried rice with roast duck.</p>
         </div>
         <div class="menu-item">
           <div class="item-header">
@@ -484,8 +481,15 @@
             <span class="item-price">$14.99</span>
           </div>
           <p class="item-description">
-            Classic shrimp fried rice with vegetables.
+            Fried rice with juicy shrimp and green onion
           </p>
+        </div>
+        <div class="menu-item">
+          <div class="item-header">
+            <span class="item-name">Vegetable Fried Rice</span>
+            <span class="item-price">$14.99</span>
+          </div>
+          <p class="item-description">Fried rice with mixed vegetables</p>
         </div>
         <div class="menu-item">
           <div class="item-header">
@@ -494,7 +498,7 @@
           </div>
           <p class="item-description">
             Classic fish sauce fried rice with dried shrimp, chinese sausage,
-            prawns, and green onion.
+            prawns, and green onion
           </p>
         </div>
       </div>
@@ -511,16 +515,7 @@
             <span class="item-price">$8.99</span>
           </div>
           <p class="item-description">
-            Baguette filled with grilled pork, pickled vegetables, and herbs.
-          </p>
-        </div>
-        <div class="menu-item">
-          <div class="item-header">
-            <span class="item-name">Grilled Chicken</span>
-            <span class="item-price">$8.99</span>
-          </div>
-          <p class="item-description">
-            Baguette filled with grilled chicken, pickled vegetables, and herbs.
+            Baguette filled with grilled pork, pickled vegetables, and herbs
           </p>
         </div>
         <div class="menu-item">
@@ -529,7 +524,18 @@
             <span class="item-price">$8.99</span>
           </div>
           <p class="item-description">
-            Baguette filled with BBQ pork, pickled vegetables, and herbs.
+            Baguette stuffed with sweet and savory char siu pork, pickled
+            vegetables, and fresh herbs
+          </p>
+        </div>
+        <div class="menu-item">
+          <div class="item-header">
+            <span class="item-name">Grilled Chicken</span>
+            <span class="item-price">$8.99</span>
+          </div>
+          <p class="item-description">
+            Baguette filled with flavorful chicken, pickled vegetables, and
+            herbs
           </p>
         </div>
         <div class="menu-item">
@@ -538,8 +544,7 @@
             <span class="item-price">$13.99</span>
           </div>
           <p class="item-description">
-            Baguette filled with Chinese sausage, fried egg, pate, Vietnamese
-            ham.
+            Chinese sausage, fried egg, pate, vietnamese ham
           </p>
         </div>
       </div>
@@ -554,21 +559,18 @@
             <span class="item-name">Rice/Egg Noodles</span>
             <span class="item-price">$3.00</span>
           </div>
-          <p class="item-description">Side of rice or egg noodles.</p>
         </div>
         <div class="menu-item">
           <div class="item-header">
             <span class="item-name">Steamed Rice</span>
             <span class="item-price">$3.00</span>
           </div>
-          <p class="item-description">Side of steamed rice.</p>
         </div>
         <div class="menu-item">
           <div class="item-header">
             <span class="item-name">Extra Broth</span>
             <span class="item-price">$3.00</span>
           </div>
-          <p class="item-description">Extra broth for soups.</p>
         </div>
       </div>
     </div>
@@ -619,70 +621,60 @@
             <span class="item-name">Thai Iced Tea</span>
             <span class="item-price">$4.99</span>
           </div>
-          <p class="item-description">Sweet and creamy Thai iced tea</p>
         </div>
         <div class="menu-item">
           <div class="item-header">
             <span class="item-name">Hot Tea</span>
             <span class="item-price">$1.99</span>
           </div>
-          <p class="item-description">Traditional hot tea</p>
         </div>
         <div class="menu-item">
           <div class="item-header">
             <span class="item-name">Soy Milk Can</span>
             <span class="item-price">$2.99</span>
           </div>
-          <p class="item-description">Canned soy milk</p>
         </div>
         <div class="menu-item">
           <div class="item-header">
             <span class="item-name">Soy Milk Bottle</span>
             <span class="item-price">$3.99</span>
           </div>
-          <p class="item-description">Bottled soy milk</p>
         </div>
         <div class="menu-item">
           <div class="item-header">
             <span class="item-name">Pennyworth</span>
             <span class="item-price">$2.99</span>
           </div>
-          <p class="item-description">Traditional pennyworth drink</p>
         </div>
         <div class="menu-item">
           <div class="item-header">
             <span class="item-name">Grass Jelly</span>
             <span class="item-price">$2.99</span>
           </div>
-          <p class="item-description">Refreshing grass jelly drink</p>
         </div>
         <div class="menu-item">
           <div class="item-header">
             <span class="item-name">Aloe vera</span>
             <span class="item-price">$2.99</span>
           </div>
-          <p class="item-description">Refreshing aloe vera drink</p>
         </div>
         <div class="menu-item">
           <div class="item-header">
             <span class="item-name">Jarritos</span>
             <span class="item-price">$3.99</span>
           </div>
-          <p class="item-description">Mexican soda in various flavors</p>
         </div>
         <div class="menu-item">
           <div class="item-header">
             <span class="item-name">Bottled Water</span>
             <span class="item-price">$1.99</span>
           </div>
-          <p class="item-description">Bottled water</p>
         </div>
         <div class="menu-item">
           <div class="item-header">
             <span class="item-name">Coconut Water</span>
             <span class="item-price">$3.99</span>
           </div>
-          <p class="item-description">Fresh coconut water</p>
         </div>
       </div>
     </div>
@@ -695,6 +687,7 @@
           <span class="boba-title">Boba</span>
           <span class="boba-price">$4.99</span>
         </div>
+        <p class="boba-subtitle">Available Flavors</p>
         <ul class="flavors-list">
           <li>Mango</li>
           <li>Pineapple</li>
@@ -722,35 +715,30 @@
             <span class="item-name">Mia Dragon Fruit</span>
             <span class="item-price">$6.99</span>
           </div>
-          <p class="item-description">Sugar cane juice with dragon fruit</p>
         </div>
         <div class="menu-item">
           <div class="item-header">
             <span class="item-name">Mia Passion Fruit</span>
             <span class="item-price">$6.99</span>
           </div>
-          <p class="item-description">Sugar cane juice with passion fruit</p>
         </div>
         <div class="menu-item">
           <div class="item-header">
             <span class="item-name">Mia Mango</span>
             <span class="item-price">$6.99</span>
           </div>
-          <p class="item-description">Sugar cane juice with mango</p>
         </div>
         <div class="menu-item">
           <div class="item-header">
             <span class="item-name">Mia Orange Juice</span>
             <span class="item-price">$6.99</span>
           </div>
-          <p class="item-description">Sugar cane juice with orange</p>
         </div>
         <div class="menu-item">
           <div class="item-header">
             <span class="item-name">Mia Kumquat</span>
             <span class="item-price">$6.99</span>
           </div>
-          <p class="item-description">Sugar cane juice with kumquat</p>
         </div>
       </div>
     </div>
@@ -770,11 +758,11 @@
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Seasame Balls (9)</span>
+            <span class="item-name">Sesame Balls (9)</span>
             <span class="item-price">$4.99</span>
           </div>
           <p class="item-description">
-            Cripsy, chewy pastry with red bean filling
+            Crispy, chewy pastry with red bean filling
           </p>
         </div>
       </div>
@@ -903,6 +891,15 @@
   font-size: 1.8rem;
   font-weight: 600;
   color: #ffce03;
+}
+
+.boba-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .flavors-list {

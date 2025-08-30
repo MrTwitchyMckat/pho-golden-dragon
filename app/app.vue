@@ -1,12 +1,12 @@
 <template>
   <div class="app-layout">
     <!-- Header Navigation -->
-    <header class="header">
+    <!-- <header class="header">
       <nav class="nav">
         <NuxtLink to="/" v-if="isMenuPage" class="nav-link">HOME</NuxtLink>
         <NuxtLink to="/menu" class="nav-link">MENU</NuxtLink>
       </nav>
-    </header>
+    </header> -->
 
     <!-- Page Content -->
     <main class="page-content">
@@ -14,7 +14,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="footer-content">
         <div class="footer-column">
           <h3 class="footer-heading">ADDRESS</h3>
@@ -32,7 +32,7 @@
           <p class="footer-text">phogoldendragon@gmail.com</p>
         </div>
       </div>
-    </footer>
+    </footer> -->
   </div>
 </template>
 
