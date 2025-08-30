@@ -124,7 +124,7 @@
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Rare Steak and Tripe Pho</span>
+            <span class="item-name">Rare Steak & Tripe Pho</span>
             <span class="item-price">$14.99</span>
           </div>
           <p class="item-description">Pho with rare steak and crunchy tripe</p>
@@ -150,7 +150,7 @@
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Rare Steak and Tendon Pho</span>
+            <span class="item-name">Rare Steak & Tendon Pho</span>
             <span class="item-price">$14.99</span>
           </div>
           <p class="item-description">Pho with rare steak and soft tendon</p>
@@ -164,7 +164,7 @@
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Rare Steak and Brisket Pho</span>
+            <span class="item-name">Rare Steak & Brisket Pho</span>
             <span class="item-price">$14.99</span>
           </div>
           <p class="item-description">Pho with rare steak and tender brisket</p>
@@ -224,7 +224,7 @@
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Beef Stew Soup + Bread</span>
+            <span class="item-name">Beef Stew Soup & Bread</span>
             <span class="item-price">$16.99</span>
           </div>
           <p class="item-description">
@@ -361,7 +361,7 @@
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">★ Heaven and Earth</span>
+            <span class="item-name">★ Heaven & Earth</span>
             <span class="item-price">$24.99</span>
           </div>
           <p class="item-description">
@@ -407,7 +407,7 @@
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Salt and Pepper Calamari</span>
+            <span class="item-name">Salt & Pepper Calamari</span>
             <span class="item-price">$16.99</span>
           </div>
           <p class="item-description">
@@ -416,7 +416,7 @@
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Salt and Pepper Shrimp</span>
+            <span class="item-name">Salt & Pepper Shrimp</span>
             <span class="item-price">$16.99</span>
           </div>
           <p class="item-description">
@@ -441,7 +441,7 @@
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Shrimp and Pork Fried Rice</span>
+            <span class="item-name">Shrimp & Pork Fried Rice</span>
             <span class="item-price">$14.99</span>
           </div>
           <p class="item-description">
