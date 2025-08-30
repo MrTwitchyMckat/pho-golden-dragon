@@ -131,16 +131,6 @@
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Long's Special Noodle</span>
-            <span class="item-price">$21.99</span>
-          </div>
-          <p class="item-description">
-            Dry noodle with shrimp, calamari, crab claw, cha siu, chicken. Broth
-            on side
-          </p>
-        </div>
-        <div class="menu-item">
-          <div class="item-header">
             <span class="item-name">Seafood Egg Noodle Soup</span>
             <span class="item-price">$14.99</span>
           </div>
@@ -187,25 +177,6 @@
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Hu Tieu Nam Vang</span>
-            <span class="item-price">$16.99</span>
-          </div>
-          <p class="item-description">
-            Flavorful clear broth with pork, quail eggs, squid, and shrimp,
-            fried shallots and garlic
-          </p>
-        </div>
-        <div class="menu-item">
-          <div class="item-header">
-            <span class="item-name">Bun Rieu</span>
-            <span class="item-price">$16.99</span>
-          </div>
-          <p class="item-description">
-            Tangy tomato broth with crab, tofu, and thin rice noodles
-          </p>
-        </div>
-        <div class="menu-item">
-          <div class="item-header">
             <span class="item-name">Banh Xeo</span>
             <span class="item-price">$17.99</span>
           </div>
@@ -224,7 +195,7 @@
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Beef Stew Soup & Bread</span>
+            <span class="item-name">Beef Stew Soup + Bread</span>
             <span class="item-price">$16.99</span>
           </div>
           <p class="item-description">
@@ -538,15 +509,6 @@
             herbs
           </p>
         </div>
-        <div class="menu-item">
-          <div class="item-header">
-            <span class="item-name">Banh Mi Chao</span>
-            <span class="item-price">$13.99</span>
-          </div>
-          <p class="item-description">
-            Chinese sausage, fried egg, pate, vietnamese ham
-          </p>
-        </div>
       </div>
     </div>
 
@@ -642,7 +604,7 @@
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Pennyworth</span>
+            <span class="item-name">Herbal Tea Can</span>
             <span class="item-price">$2.99</span>
           </div>
         </div>
@@ -709,34 +671,35 @@
     <!-- Sugar Cane Section -->
     <div class="menu-section">
       <h2 class="section-header">Sugar Cane</h2>
+      <p class="modifier-text">Nuoc Mia (Sugar Cane Juice)</p>
       <div class="menu-grid">
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Mia Dragon Fruit</span>
+            <span class="item-name">Dragon Fruit</span>
             <span class="item-price">$6.99</span>
           </div>
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Mia Passion Fruit</span>
+            <span class="item-name">Passion Fruit</span>
             <span class="item-price">$6.99</span>
           </div>
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Mia Mango</span>
+            <span class="item-name">Mango</span>
             <span class="item-price">$6.99</span>
           </div>
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Mia Orange Juice</span>
+            <span class="item-name">Orange</span>
             <span class="item-price">$6.99</span>
           </div>
         </div>
         <div class="menu-item">
           <div class="item-header">
-            <span class="item-name">Mia Kumquat</span>
+            <span class="item-name">Kumquat</span>
             <span class="item-price">$6.99</span>
           </div>
         </div>
