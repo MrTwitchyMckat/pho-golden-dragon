@@ -102,11 +102,11 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .home-page {
-    padding: 0.5rem;
+    padding: 0.25rem;
     margin-top: 0; /* Remove negative margin */
     min-height: calc(
-      100vh - 180px
-    ); /* More conservative height to prevent scrolling on mobile */
+      100vh - 240px
+    ); /* Much tighter spacing so footer is visible */
   }
 
   .hero-section {

@@ -233,7 +233,7 @@ body {
   }
 
   .footer {
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
   }
 
   .footer-content {
