@@ -22,7 +22,7 @@
 /* CSS Variables */
 :root {
   --color-background: #1a1a1a;
-  --color-accent: #fdd835;
+  --color-accent: #ffce03;
   --color-text-white: #ffffff;
   --color-text-black: #000000;
   --font-primary: "Montserrat", sans-serif;
@@ -31,13 +31,15 @@
 
 /* Home Page Styles */
 .home-page {
-  min-height: 80vh;
+  min-height: calc(
+    100vh - 220px
+  ); /* More conservative height to prevent scrolling */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
-  margin-top: -80px;
+  padding: 0.5rem;
+  margin-top: 0; /* Remove negative margin */
 }
 
 .main-content {
@@ -82,20 +84,11 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border-radius: 8px;
+  border-radius: 5px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: none;
   text-decoration: none;
   display: inline-block;
-
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(253, 216, 53, 0.3);
-  }
-
-  &:active {
-    transform: translateY(0);
-  }
 }
 
 .coming-soon {
@@ -109,9 +102,11 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .home-page {
-    padding: 1rem;
-    margin-top: -60px; /* Adjust for smaller header on mobile */
-    min-height: 50vh;
+    padding: 0.5rem;
+    margin-top: 0; /* Remove negative margin */
+    min-height: calc(
+      100vh - 180px
+    ); /* More conservative height to prevent scrolling on mobile */
   }
 
   .hero-section {
