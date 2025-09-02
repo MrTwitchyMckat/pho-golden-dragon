@@ -10,11 +10,8 @@
             class="dragon-logo"
           />
         </div>
-        <!-- <div class="branding">
+        <div class="branding">
           <NuxtLink to="/menu" class="cta-button">VIEW MENU</NuxtLink>
-        </div> -->
-        <div class="coming-soon">
-          <h2>Coming Soon</h2>
         </div>
       </div>
     </main>
