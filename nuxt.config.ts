@@ -33,6 +33,46 @@ export default defineNuxtConfig({
         {
           name: 'viewport',
           content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'
+        },
+        {
+          property: 'og:title',
+          content: 'Golden Dragon - Pho & Vietnamese Cuisine'
+        },
+        {
+          property: 'og:description',
+          content: 'Experience authentic pho and Vietnamese cuisine at Golden Dragon in Reno, NV. Fresh ingredients, traditional recipes, and exceptional service.'
+        },
+        {
+          property: 'og:image',
+          content: '/golden-dragon-og.jpg'
+        },
+        {
+          property: 'og:image:width',
+          content: '1200'
+        },
+        {
+          property: 'og:image:height',
+          content: '630'
+        },
+        {
+          property: 'og:type',
+          content: 'website'
+        },
+        {
+          property: 'og:url',
+          content: 'https://phogoldendragon.com'
+        },
+        {
+          name: 'twitter:card',
+          content: 'summary_large_image'
+        },
+        {
+          name: 'twitter:image',
+          content: '/golden-dragon-og.jpg'
+        },
+        {
+          name: 'description',
+          content: 'Experience authentic pho and Vietnamese cuisine at Golden Dragon in Reno, NV. Fresh ingredients, traditional recipes, and exceptional service.'
         }
       ],
       style: [
