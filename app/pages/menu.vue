@@ -90,6 +90,13 @@
     </nav>
 
     <div class="menu-content">
+      <!-- Gratuity Notice -->
+      <div class="gratuity-notice">
+        <p>
+          18% gratuity will be automatically added to parties of six or more.
+        </p>
+      </div>
+
       <!-- Appetizers Section -->
       <div id="appetizers" class="menu-section">
         <h2 class="section-header">Appetizers</h2>
@@ -1025,6 +1032,29 @@ html {
   padding: 2rem;
 }
 
+/* Gratuity Notice */
+.gratuity-notice {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 1rem 2rem;
+  background-color: #2a2a2a;
+  border-radius: 8px;
+  border-left: 4px solid #e23e52;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gratuity-notice p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #e23e52;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
 .menu-section {
   margin-bottom: 3rem;
   padding-top: 6rem;
@@ -1188,6 +1218,15 @@ html {
 
   .menu-content {
     padding: 1rem;
+  }
+
+  .gratuity-notice {
+    padding: 0.75rem 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .gratuity-notice p {
+    font-size: 0.9rem;
   }
 
   .menu-section {

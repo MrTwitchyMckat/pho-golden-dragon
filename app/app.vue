@@ -40,7 +40,7 @@
       <div class="footer-content">
         <div class="footer-column">
           <h3 class="footer-heading">ADDRESS</h3>
-          <p class="footer-text">2309 Kietzke Ln Unit 15</p>
+          <p class="footer-text">2309 Kietzke Ln</p>
           <p class="footer-text">Reno, NV 89502</p>
         </div>
         <div class="footer-column">
@@ -81,11 +81,18 @@ const isMenuPage = computed(() => route.path === "/menu");
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
 body {
   font-family: var(--font-primary);
   background-color: var(--color-background);
   color: var(--color-text-white);
   line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
 }
 
 .app-layout {

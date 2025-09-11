@@ -29,17 +29,30 @@
   --font-secondary: "Quando", serif;
 }
 
+/* Prevent mobile scroll issues */
+* {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Prevent mobile browser from adjusting viewport */
+@supports (-webkit-touch-callout: none) {
+  .home-page {
+    min-height: -webkit-fill-available;
+  }
+}
+
 /* Home Page Styles */
 .home-page {
   min-height: calc(
-    100vh - 220px
-  ); /* More conservative height to prevent scrolling */
+    100vh - 200px
+  ); /* Account for header (~70px) and footer (~130px) */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0.5rem;
-  margin-top: 0; /* Remove negative margin */
+  padding: 1rem 0.5rem;
+  margin-top: 0;
+  position: relative;
 }
 
 .main-content {
@@ -56,6 +69,9 @@
   align-items: center;
   width: 100%;
   text-align: center;
+  transform: translateZ(0); /* Force hardware acceleration */
+  will-change: transform; /* Optimize for animations */
+  gap: 1.5rem; /* Reduce gap between logo and button */
 }
 
 .logo-container {
@@ -63,7 +79,7 @@
 }
 
 .dragon-logo {
-  width: 400px;
+  width: 320px;
   height: auto;
   max-width: 100%;
 }
@@ -72,7 +88,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
 .cta-button {
@@ -102,49 +118,50 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .home-page {
-    padding: 0.25rem;
-    margin-top: 0; /* Remove negative margin */
+    padding: 0.5rem 0.25rem;
+    margin-top: 0;
     min-height: calc(
-      100vh - 240px
-    ); /* Much tighter spacing so footer is visible */
+      100vh - 180px
+    ); /* Account for mobile header (~65px) and footer (~115px) */
+    padding-bottom: 1rem;
   }
 
   .hero-section {
-    gap: 1.5rem;
+    gap: 1rem;
   }
 
   .dragon-logo {
-    width: 280px;
+    width: 240px;
   }
 
   .cta-button {
-    padding: 0.875rem 1.75rem;
-    font-size: 0.9rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.85rem;
   }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
   .hero-section {
-    gap: 1.75rem;
+    gap: 1.5rem;
   }
 
   .dragon-logo {
-    width: 350px;
+    width: 300px;
   }
 }
 
 @media (min-width: 1200px) {
   .hero-section {
-    gap: 3rem;
+    gap: 2rem;
   }
 
   .dragon-logo {
-    width: 450px;
+    width: 380px;
   }
 
   .cta-button {
-    padding: 1.25rem 2.5rem;
-    font-size: 1.1rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
   }
 }
 
