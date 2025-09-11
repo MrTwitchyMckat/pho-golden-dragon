@@ -41,16 +41,25 @@
   }
 }
 
+/* Additional mobile viewport handling */
+@media (max-width: 768px) {
+  .home-page {
+    min-height: calc(100vh - 140px);
+    /* Ensure content fits within viewport accounting for browser UI */
+    max-height: calc(100vh - 140px);
+  }
+}
+
 /* Home Page Styles */
 .home-page {
   min-height: calc(
-    100vh - 200px
-  ); /* Account for header (~70px) and footer (~130px) */
+    100vh - 150px
+  ); /* Account for header (~70px) and footer (~80px) */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 1rem 0.5rem;
+  padding: 0.5rem 0.5rem;
   margin-top: 0;
   position: relative;
 }
@@ -71,7 +80,7 @@
   text-align: center;
   transform: translateZ(0); /* Force hardware acceleration */
   will-change: transform; /* Optimize for animations */
-  gap: 1.5rem; /* Reduce gap between logo and button */
+  gap: 1rem; /* Reduce gap between logo and button */
 }
 
 .logo-container {
@@ -121,8 +130,8 @@
     padding: 0.5rem 0.25rem;
     margin-top: 0;
     min-height: calc(
-      100vh - 180px
-    ); /* Account for mobile header (~65px) and footer (~115px) */
+      100vh - 300px
+    ); /* Account for mobile header (~65px) and footer (~75px) */
     padding-bottom: 1rem;
   }
 

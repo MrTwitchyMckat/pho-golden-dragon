@@ -245,7 +245,7 @@ body {
 
   .footer-content {
     grid-template-columns: 1fr;
-    gap: 1.5rem;
+    gap: 1rem;
   }
 
   .footer-column {
@@ -258,6 +258,15 @@ body {
 
   .footer-text {
     font-size: 0.9rem;
+  }
+}
+
+/* Additional mobile footer positioning */
+@media (max-width: 768px) {
+  .footer {
+    position: relative;
+    z-index: 10;
+    margin-bottom: env(safe-area-inset-bottom, 0);
   }
 }
 
