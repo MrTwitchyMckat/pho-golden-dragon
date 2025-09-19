@@ -19,12 +19,18 @@
             </NuxtLink>
           </div>
           <div class="navbar-menu">
-            <NuxtLink to="/" v-if="isMenuPage" class="nav-button"
-              >HOME</NuxtLink
-            >
-            <NuxtLink to="/menu" v-if="!isMenuPage" class="nav-button"
+            <NuxtLink to="/" v-if="isMenuPage" class="nav-link">HOME</NuxtLink>
+            <NuxtLink to="/menu" v-if="!isMenuPage" class="nav-link"
               >VIEW MENU</NuxtLink
             >
+            <a
+              href="https://order.spoton.com/so-golden-dragon-21672/reno-nv/673e69761411de7ad9e82ef4"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="order-button"
+            >
+              ORDER ONLINE
+            </a>
           </div>
         </div>
       </nav>
@@ -153,7 +159,18 @@ body {
   align-items: center;
 }
 
-.nav-button {
+.nav-link {
+  color: var(--color-text-black);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0.5rem 1rem;
+  transition: none;
+}
+
+.order-button {
   background-color: var(--color-text-black);
   color: var(--color-accent);
   text-decoration: none;
@@ -163,6 +180,7 @@ body {
   letter-spacing: 1px;
   padding: 0.5rem 1rem;
   border-radius: 5px;
+  border: 1px solid var(--color-accent);
   transition: none;
 }
 
@@ -230,7 +248,12 @@ body {
     display: block;
   }
 
-  .nav-button {
+  .nav-link {
+    font-size: 0.75rem;
+    padding: 0.375rem 0.75rem;
+  }
+
+  .order-button {
     font-size: 0.75rem;
     padding: 0.375rem 0.75rem;
   }

@@ -11,7 +11,17 @@
           />
         </div>
         <div class="branding">
-          <NuxtLink to="/menu" class="cta-button">VIEW MENU</NuxtLink>
+          <div class="button-group">
+            <a
+              href="https://order.spoton.com/so-golden-dragon-21672/reno-nv/673e69761411de7ad9e82ef4"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="order-online-button"
+            >
+              ORDER ONLINE
+            </a>
+            <NuxtLink to="/menu" class="view-menu-button">VIEW MENU</NuxtLink>
+          </div>
         </div>
       </div>
     </main>
@@ -100,10 +110,32 @@
   gap: 0.5rem;
 }
 
-.cta-button {
+.button-group {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.order-online-button {
   background-color: var(--color-accent);
   color: var(--color-text-black);
   border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: none;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.view-menu-button {
+  background-color: var(--color-background);
+  color: var(--color-accent);
+  border: 1px solid var(--color-accent);
   padding: 1rem 2rem;
   font-size: 1rem;
   font-weight: 600;
@@ -143,9 +175,17 @@
     width: 240px;
   }
 
-  .cta-button {
+  .button-group {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .order-online-button,
+  .view-menu-button {
     padding: 0.75rem 1.5rem;
     font-size: 0.85rem;
+    width: 100%;
+    text-align: center;
   }
 }
 
@@ -168,7 +208,8 @@
     width: 380px;
   }
 
-  .cta-button {
+  .order-online-button,
+  .view-menu-button {
     padding: 1rem 2rem;
     font-size: 1rem;
   }
