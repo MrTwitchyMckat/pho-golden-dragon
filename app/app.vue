@@ -51,8 +51,8 @@
         </div>
         <div class="footer-column">
           <h3 class="footer-heading">BUSINESS HOURS</h3>
-          <p class="footer-text">Monday - Sunday</p>
-          <p class="footer-text">10AM - 9PM</p>
+          <p class="footer-text">Open Daily 10:00 AM – 9:00 PM</p>
+          <p class="footer-text"><strong>Closed Wednesday</strong></p>
         </div>
         <div class="footer-column">
           <h3 class="footer-heading">CONTACT US</h3>
