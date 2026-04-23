@@ -23,6 +23,14 @@ export const menuPage = defineType({
       type: 'text',
     }),
     defineField({
+      name: 'rawConsumptionWarning',
+      title: 'Raw / undercooked consumer advisory',
+      description:
+        'FDA-style notice for items that may include raw or undercooked animal foods (e.g. rare steak pho, seafood, eggs). Shown on the public menu.',
+      type: 'text',
+      rows: 6,
+    }),
+    defineField({
       name: 'sections',
       title: 'Sections',
       type: 'array',

@@ -24,6 +24,13 @@
       </div>
 
       <div
+        v-if="menu.rawConsumptionWarning"
+        class="raw-consumption-notice"
+      >
+        <p>{{ menu.rawConsumptionWarning }}</p>
+      </div>
+
+      <div
         v-for="sec in menu.sections"
         :key="sec.slug"
         :id="sec.slug"
@@ -272,6 +279,28 @@ html {
   letter-spacing: 0.5px;
 }
 
+/* Raw / undercooked advisory (FDA-style) */
+.raw-consumption-notice {
+  text-align: left;
+  margin-bottom: 2rem;
+  padding: 1rem 1.25rem;
+  background-color: #222;
+  border-radius: 8px;
+  border-left: 4px solid #888;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.raw-consumption-notice p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #c8c8c8;
+  margin: 0;
+  line-height: 1.55;
+}
+
 .menu-section {
   margin-bottom: 3rem;
   padding-top: 6rem;
@@ -444,6 +473,15 @@ html {
 
   .gratuity-notice p {
     font-size: 0.9rem;
+  }
+
+  .raw-consumption-notice {
+    padding: 0.75rem 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .raw-consumption-notice p {
+    font-size: 0.75rem;
   }
 
   .menu-section {

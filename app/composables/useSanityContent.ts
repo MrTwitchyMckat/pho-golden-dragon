@@ -27,6 +27,7 @@ export type MenuSection = {
 export type MenuPage = {
   navTitle?: string
   gratuityNotice?: string
+  rawConsumptionWarning?: string
   sections?: MenuSection[]
 }
 
@@ -54,6 +55,7 @@ export function normalizeMenuPage(raw: unknown): MenuPage {
   return {
     navTitle: doc.navTitle as string | undefined,
     gratuityNotice: doc.gratuityNotice as string | undefined,
+    rawConsumptionWarning: doc.rawConsumptionWarning as string | undefined,
     sections,
   }
 }
@@ -76,6 +78,7 @@ const sanityDocumentsQuery = groq`
     "menu": *[_id == "menuPage"][0]{
       navTitle,
       gratuityNotice,
+      rawConsumptionWarning,
       sections[]{
         title,
         "slug": slug.current,

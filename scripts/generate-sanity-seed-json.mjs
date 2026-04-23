@@ -53,6 +53,8 @@ const menuPage = {
   navTitle: 'Menu Categories',
   gratuityNotice:
     '18% gratuity will be automatically added to parties of six or more.',
+  rawConsumptionWarning:
+    'Consumer advisory: This menu includes beef, pork, poultry, seafood (such as shrimp, crab, and calamari), duck, shellfish, and eggs. Some dishes may be served raw or undercooked to order or prepared in traditional styles—including pho with rare steak, house and specialty beef pho with brisket, tripe, tendon, or meatballs, seafood noodle soups, roast duck, optional fried eggs on vermicelli and rice plates, and fresh rolls with shrimp or pork. Consuming raw or undercooked meats, poultry, seafood, shellfish, or eggs may increase your risk of foodborne illness, especially if you have certain medical conditions. Please ask your server if you have questions about how a dish is prepared.',
   sections: [
     section('Appetizers', 'appetizers', {}, [
       item('Pot Stickers (6)', '$8.99', 'Pan-seared dumplings with pork and vegetables'),
