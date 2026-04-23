@@ -1,5 +1,44 @@
 <template>
-  <div class="app-layout">
+  <div
+    v-if="pending"
+    class="site-loader"
+    aria-live="polite"
+    aria-busy="true"
+  >
+    <div class="site-loader-inner">
+      <img
+        src="/logo-winking-face.svg"
+        alt=""
+        class="site-loader-dragon"
+        width="120"
+        height="120"
+      />
+      <p class="site-loader-title">Golden Dragon</p>
+      <p class="site-loader-sub">Warming up the kitchen…</p>
+    </div>
+  </div>
+
+  <div v-else-if="!ready" class="site-error">
+    <img
+      src="/logo-winking-face.svg"
+      alt=""
+      class="site-error-dragon"
+      width="96"
+      height="96"
+    />
+    <p class="site-error-title">We couldn’t load the menu</p>
+    <p class="site-error-sub">
+      {{
+        errorMessage ||
+          "Check your connection, or try again in a moment."
+      }}
+    </p>
+    <button type="button" class="site-error-retry" @click="refresh()">
+      Try again
+    </button>
+  </div>
+
+  <div v-else class="app-layout">
     <!-- Header Navigation -->
     <header class="header">
       <nav class="navbar">
@@ -70,7 +109,25 @@
 const route = useRoute()
 const isMenuPage = computed(() => route.path === '/menu')
 
-const { settings } = useSanitySiteSettings()
+const { site: settings, ready, pending, error, refresh } = useSanityContent()
+
+const errorMessage = computed(() => {
+  const e = error.value
+  if (!e) return ""
+  const message = e instanceof Error ? e.message : String(e)
+
+  // Browser-side Sanity requests fail with an opaque network error when CORS
+  // is not configured for the current origin.
+  if (
+    /attempting to reach/i.test(message) &&
+    /sanity\.io/i.test(message)
+  ) {
+    return "Sanity blocked this origin. Add this site's URL to Sanity API CORS origins (localhost and production), then retry."
+  }
+
+  return message
+})
+
 useSanitySeo(settings)
 </script>
 
@@ -104,6 +161,95 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
   -webkit-text-size-adjust: 100%;
+}
+
+/* Full-screen load & error (Sanity-only; no seed fallback) */
+.site-loader,
+.site-error {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-background);
+  padding: 2rem 1.5rem;
+}
+
+.site-loader-inner {
+  text-align: center;
+  max-width: 320px;
+}
+
+.site-loader-dragon {
+  display: block;
+  margin: 0 auto 1.25rem;
+  animation: loader-wiggle 1.1s ease-in-out infinite;
+}
+
+.site-loader-title {
+  font-family: var(--font-secondary), serif;
+  font-size: 1.5rem;
+  color: var(--color-accent);
+  margin: 0 0 0.35rem;
+}
+
+.site-loader-sub {
+  font-family: var(--font-primary), sans-serif;
+  font-size: 0.95rem;
+  color: #c8c8c8;
+  margin: 0;
+}
+
+.site-error {
+  flex-direction: column;
+  text-align: center;
+}
+
+.site-error-dragon {
+  opacity: 0.85;
+  margin-bottom: 1rem;
+}
+
+.site-error-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  margin: 0 0 0.5rem;
+}
+
+.site-error-sub {
+  font-size: 0.9rem;
+  color: #c8c8c8;
+  margin: 0 0 1.25rem;
+  max-width: 280px;
+}
+
+.site-error-retry {
+  font-family: var(--font-primary), sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 0.65rem 1.25rem;
+  border-radius: 5px;
+  border: 2px solid var(--color-accent);
+  background: transparent;
+  color: var(--color-accent);
+  cursor: pointer;
+}
+
+.site-error-retry:hover {
+  background: var(--color-accent);
+  color: var(--color-text-black);
+}
+
+@keyframes loader-wiggle {
+  0%,
+  100% {
+    transform: rotate(-4deg) translateY(0);
+  }
+  50% {
+    transform: rotate(4deg) translateY(-4px);
+  }
 }
 
 .app-layout {

@@ -1,7 +1,19 @@
 import groq from 'groq'
-import seed from '~/data/sanity-seed.json'
 
-export type SiteSettings = (typeof seed)['siteSettings']
+/** Published `siteSettings` fields we query (Sanity is the only source of truth). */
+export type SiteSettings = {
+  orderOnlineUrl?: string
+  footerAddressLine1?: string
+  footerAddressLine2?: string
+  footerHoursLine1?: string
+  footerHoursLine2?: string
+  footerPhone?: string
+  footerEmail?: string
+  seoTitle?: string
+  seoDescription?: string
+  seoOgImagePath?: string
+  seoSiteUrl?: string
+}
 
 export type MenuItem = {
   name?: string
@@ -95,9 +107,7 @@ const sanityDocumentsQuery = groq`
 const SANITY_ASYNC_KEY = 'sanity-site-and-menu'
 
 /**
- * One GROQ round-trip, shared across the app via a stable asyncData key.
- * Do not await: `data` stays null until the CDN responds; computeds fall back
- * to bundled seed so the UI is instant, then upgrades when live data arrives.
+ * One GROQ round-trip; data comes only from Sanity (no bundled seed fallback).
  */
 export function useSanityContent() {
   const { data, pending, error, refresh } = useSanityQuery<SanityBundle | null>(
@@ -106,13 +116,21 @@ export function useSanityContent() {
     { key: SANITY_ASYNC_KEY },
   )
 
-  const site = computed(
-    () => (data.value?.site ?? seed.siteSettings) as SiteSettings,
-  )
+  const site = computed(() => (data.value?.site ?? null) as SiteSettings | null)
 
-  const menu = computed(() =>
-    normalizeMenuPage(data.value?.menu ?? seed.menuPage),
-  )
+  const menu = computed(() => normalizeMenuPage(data.value?.menu))
 
-  return { site, menu, pending, error, refresh }
+  const ready = computed(() => {
+    if (pending.value) return false
+    if (error.value) return false
+    const s = data.value?.site
+    const m = data.value?.menu
+    if (!s?.orderOnlineUrl) return false
+    if (!m || typeof m !== 'object') return false
+    const sections = (m as { sections?: unknown }).sections
+    if (!Array.isArray(sections) || sections.length === 0) return false
+    return true
+  })
+
+  return { site, menu, pending, error, refresh, ready }
 }

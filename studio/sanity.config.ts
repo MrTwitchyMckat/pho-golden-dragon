@@ -14,7 +14,7 @@ export default defineConfig({
   dataset,
   plugins: [
     structureTool({ structure: deskStructure }),
-    visionTool({ defaultApiVersion: '2025-04-01' }),
+    visionTool({ defaultApiVersion: '2025-02-19' }),
   ],
   schema: {
     types: schemaTypes,

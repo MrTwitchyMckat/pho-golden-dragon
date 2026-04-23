@@ -1,6 +1,7 @@
 /**
- * Generates app/data/sanity-seed.json for local fallbacks and studio seeding.
- * Run: node scripts/generate-sanity-seed-json.mjs
+ * Generates app/data/sanity-seed.json for `npm run sanity:seed` (bootstrap Sanity).
+ * The Nuxt app does not import this file; content is loaded from Sanity at runtime.
+ * Run: npm run sanity:seed-json
  */
 import { writeFileSync, mkdirSync } from 'node:fs'
 import { dirname, join } from 'node:path'

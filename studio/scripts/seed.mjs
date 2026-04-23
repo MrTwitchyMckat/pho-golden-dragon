@@ -57,7 +57,7 @@ const dataset = process.env.SANITY_STUDIO_DATASET || 'production'
 const client = createClient({
   projectId,
   dataset,
-  apiVersion: '2025-04-01',
+  apiVersion: '2025-02-19',
   token,
   useCdn: false,
 })

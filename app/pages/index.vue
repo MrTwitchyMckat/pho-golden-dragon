@@ -13,6 +13,7 @@
         <div class="branding">
           <div class="button-group">
             <a
+              v-if="settings?.orderOnlineUrl"
               :href="settings.orderOnlineUrl"
               target="_blank"
               rel="noopener noreferrer"

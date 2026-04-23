@@ -1,6 +1,6 @@
 import type { SiteSettings } from './useSanityContent'
 
-export function useSanitySeo(settings: Ref<SiteSettings>) {
+export function useSanitySeo(settings: Ref<SiteSettings | null>) {
   watchEffect(() => {
     const s = settings.value
     if (!s?.seoTitle) return

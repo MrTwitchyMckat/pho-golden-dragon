@@ -20,7 +20,10 @@ export default defineNuxtConfig({
   sanity: {
     projectId: process.env.NUXT_PUBLIC_SANITY_PROJECT_ID || '03e15w02',
     dataset: process.env.NUXT_PUBLIC_SANITY_DATASET || 'production',
-    apiVersion: '2025-04-01',
+    // Use a dated API + `published` so anonymous CDN requests work in the browser.
+    // `raw` (the module default) is for drafts/preview and often fails without a token.
+    apiVersion: '2025-02-19',
+    perspective: 'published',
     useCdn: true,
   },
 
