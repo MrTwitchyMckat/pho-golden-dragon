@@ -2,9 +2,11 @@
  * Upserts singleton documents into Sanity. Requires write token:
  *   SANITY_API_WRITE_TOKEN=... npm run seed
  * (run from /studio)
+ *
+ * Loads env from repo-root `.env` then `studio/.env` (same names as Nuxt).
  */
 import { createClient } from '@sanity/client'
-import { readFileSync } from 'node:fs'
+import { existsSync, readFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -12,9 +14,40 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 const root = join(__dirname, '..', '..')
 const seedPath = join(root, 'app', 'data', 'sanity-seed.json')
 
+function loadEnvFile(filePath) {
+  if (!existsSync(filePath)) return
+  const text = readFileSync(filePath, 'utf8')
+  for (const line of text.split('\n')) {
+    const trimmed = line.trim()
+    if (!trimmed || trimmed.startsWith('#')) continue
+    const exportPrefix = 'export '
+    const lineBody = trimmed.startsWith(exportPrefix)
+      ? trimmed.slice(exportPrefix.length)
+      : trimmed
+    const eq = lineBody.indexOf('=')
+    if (eq === -1) continue
+    const key = lineBody.slice(0, eq).trim()
+    let val = lineBody.slice(eq + 1).trim()
+    if (
+      (val.startsWith('"') && val.endsWith('"')) ||
+      (val.startsWith("'") && val.endsWith("'"))
+    ) {
+      val = val.slice(1, -1)
+    }
+    process.env[key] = val
+  }
+}
+
+loadEnvFile(join(root, '.env'))
+loadEnvFile(join(__dirname, '..', '.env'))
+
 const token = process.env.SANITY_API_WRITE_TOKEN
 if (!token) {
-  console.error('Missing SANITY_API_WRITE_TOKEN (Editor token from sanity.io/manage).')
+  console.error(
+    'Missing SANITY_API_WRITE_TOKEN. Add it to the repo-root .env (or studio/.env), e.g.\n' +
+      '  SANITY_API_WRITE_TOKEN=sk...\n' +
+      'Create a token at https://www.sanity.io/manage → API → Tokens (Editor).',
+  )
   process.exit(1)
 }
 
