@@ -24,13 +24,6 @@
       </div>
 
       <div
-        v-if="menu.rawConsumptionWarning"
-        class="raw-consumption-notice"
-      >
-        <p>{{ menu.rawConsumptionWarning }}</p>
-      </div>
-
-      <div
         v-for="sec in menu.sections"
         :key="sec.slug"
         :id="sec.slug"
@@ -72,6 +65,13 @@
             </p>
           </div>
         </div>
+      </div>
+
+      <div
+        v-if="menu.rawConsumptionWarning"
+        class="raw-consumption-notice"
+      >
+        <p>{{ menu.rawConsumptionWarning }}</p>
       </div>
     </div>
   </div>
@@ -282,7 +282,7 @@ html {
 /* Raw / undercooked advisory (FDA-style) */
 .raw-consumption-notice {
   text-align: left;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
   padding: 1rem 1.25rem;
   background-color: #222;
   border-radius: 8px;
@@ -477,7 +477,7 @@ html {
 
   .raw-consumption-notice {
     padding: 0.75rem 1rem;
-    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
   }
 
   .raw-consumption-notice p {
