@@ -1,5 +1,7 @@
 [build]
-  command = "npm run build"
+  # Pull latest siteSettings + menuPage from Sanity into app/data/sanity-seed.json
+  # before bundling, so each deploy matches published Studio content (see README).
+  command = "npm run build:netlify"
   publish = ".output/public"
 
 [build.environment]
