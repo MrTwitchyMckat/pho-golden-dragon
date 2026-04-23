@@ -8,9 +8,14 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "static": "nuxt generate"
+    "static": "nuxt generate",
+    "sanity:seed-json": "node scripts/generate-sanity-seed-json.mjs",
+    "sanity:seed": "cd studio && npm run seed",
+    "studio": "cd studio && npm run dev"
   },
   "dependencies": {
+    "@nuxtjs/sanity": "^2.3.0",
+    "groq": "^5.22.0",
     "nuxt": "^4.0.3",
     "sass": "^1.91.0",
     "vue": "^3.5.20",

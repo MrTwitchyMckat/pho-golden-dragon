@@ -24,7 +24,7 @@
               >VIEW MENU</NuxtLink
             >
             <a
-              href="https://order.spoton.com/so-golden-dragon-21672/reno-nv/673e69761411de7ad9e82ef4"
+              :href="settings.orderOnlineUrl"
               target="_blank"
               rel="noopener noreferrer"
               class="order-button"
@@ -46,27 +46,32 @@
       <div class="footer-content">
         <div class="footer-column">
           <h3 class="footer-heading">ADDRESS</h3>
-          <p class="footer-text">2309 Kietzke Ln</p>
-          <p class="footer-text">Reno, NV 89502</p>
+          <p class="footer-text">{{ settings.footerAddressLine1 }}</p>
+          <p class="footer-text">{{ settings.footerAddressLine2 }}</p>
         </div>
         <div class="footer-column">
           <h3 class="footer-heading">BUSINESS HOURS</h3>
-          <p class="footer-text">Open Daily 10:00 AM – 9:00 PM</p>
-          <p class="footer-text"><strong>Closed Wednesday</strong></p>
+          <p class="footer-text">{{ settings.footerHoursLine1 }}</p>
+          <p class="footer-text">
+            <strong>{{ settings.footerHoursLine2 }}</strong>
+          </p>
         </div>
         <div class="footer-column">
           <h3 class="footer-heading">CONTACT US</h3>
-          <p class="footer-text">775-622-0321</p>
-          <p class="footer-text">phogoldendragon@gmail.com</p>
+          <p class="footer-text">{{ settings.footerPhone }}</p>
+          <p class="footer-text">{{ settings.footerEmail }}</p>
         </div>
       </div>
     </footer>
   </div>
 </template>
 
-<script setup>
-const route = useRoute();
-const isMenuPage = computed(() => route.path === "/menu");
+<script setup lang="ts">
+const route = useRoute()
+const isMenuPage = computed(() => route.path === '/menu')
+
+const { settings } = await useSanitySiteSettings()
+useSanitySeo(settings)
 </script>
 
 <style lang="scss">

@@ -2,7 +2,24 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  
+
+  modules: ['@nuxtjs/sanity'],
+
+  runtimeConfig: {
+    public: {
+      sanityProjectId:
+        process.env.NUXT_PUBLIC_SANITY_PROJECT_ID || '03e15w02',
+      sanityDataset: process.env.NUXT_PUBLIC_SANITY_DATASET || 'production',
+    },
+  },
+
+  sanity: {
+    projectId: process.env.NUXT_PUBLIC_SANITY_PROJECT_ID || '03e15w02',
+    dataset: process.env.NUXT_PUBLIC_SANITY_DATASET || 'production',
+    apiVersion: '2025-04-01',
+    useCdn: true,
+  },
+
   // Configure for static generation (SSG)
   ssr: false,
   nitro: {
@@ -33,46 +50,6 @@ export default defineNuxtConfig({
         {
           name: 'viewport',
           content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'
-        },
-        {
-          property: 'og:title',
-          content: 'Golden Dragon - Pho & Vietnamese Cuisine'
-        },
-        {
-          property: 'og:description',
-          content: 'Experience authentic pho and Vietnamese cuisine at Golden Dragon in Reno, NV. Fresh ingredients, traditional recipes, and exceptional service.'
-        },
-        {
-          property: 'og:image',
-          content: '/golden-dragon-og.jpg'
-        },
-        {
-          property: 'og:image:width',
-          content: '1200'
-        },
-        {
-          property: 'og:image:height',
-          content: '630'
-        },
-        {
-          property: 'og:type',
-          content: 'website'
-        },
-        {
-          property: 'og:url',
-          content: 'https://phogoldendragon.com'
-        },
-        {
-          name: 'twitter:card',
-          content: 'summary_large_image'
-        },
-        {
-          name: 'twitter:image',
-          content: '/golden-dragon-og.jpg'
-        },
-        {
-          name: 'description',
-          content: 'Experience authentic pho and Vietnamese cuisine at Golden Dragon in Reno, NV. Fresh ingredients, traditional recipes, and exceptional service.'
         }
       ],
       style: [

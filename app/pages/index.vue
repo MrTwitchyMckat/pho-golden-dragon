@@ -13,7 +13,7 @@
         <div class="branding">
           <div class="button-group">
             <a
-              href="https://order.spoton.com/so-golden-dragon-21672/reno-nv/673e69761411de7ad9e82ef4"
+              :href="settings.orderOnlineUrl"
               target="_blank"
               rel="noopener noreferrer"
               class="order-online-button"
@@ -27,6 +27,10 @@
     </main>
   </div>
 </template>
+
+<script setup lang="ts">
+const { settings } = await useSanitySiteSettings()
+</script>
 
 <style lang="scss">
 /* CSS Variables */

@@ -1,0 +1,623 @@
+{
+  "siteSettings": {
+    "_id": "siteSettings",
+    "_type": "siteSettings",
+    "orderOnlineUrl": "https://order.spoton.com/so-golden-dragon-21672/reno-nv/673e69761411de7ad9e82ef4",
+    "footerAddressLine1": "2309 Kietzke Ln",
+    "footerAddressLine2": "Reno, NV 89502",
+    "footerHoursLine1": "Open Daily 10:00 AM – 9:00 PM",
+    "footerHoursLine2": "Closed Wednesday",
+    "footerPhone": "775-622-0321",
+    "footerEmail": "phogoldendragon@gmail.com",
+    "seoTitle": "Golden Dragon - Pho & Vietnamese Cuisine",
+    "seoDescription": "Experience authentic pho and Vietnamese cuisine at Golden Dragon in Reno, NV. Fresh ingredients, traditional recipes, and exceptional service.",
+    "seoOgImagePath": "/golden-dragon-og.jpg",
+    "seoSiteUrl": "https://phogoldendragon.com"
+  },
+  "menuPage": {
+    "_id": "menuPage",
+    "_type": "menuPage",
+    "title": "Menu",
+    "navTitle": "Menu Categories",
+    "gratuityNotice": "18% gratuity will be automatically added to parties of six or more.",
+    "sections": [
+      {
+        "_type": "menuSection",
+        "title": "Appetizers",
+        "slug": {
+          "_type": "slug",
+          "current": "appetizers"
+        },
+        "layout": "grid",
+        "items": [
+          {
+            "_type": "menuItem",
+            "name": "Pot Stickers (6)",
+            "price": "$8.99",
+            "description": "Pan-seared dumplings with pork and vegetables"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Grilled Pork Rolls (2)",
+            "price": "$8.99",
+            "description": "Fresh rolls with grilled pork and herbs"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Chicken Wings (6)",
+            "price": "$12.99",
+            "description": "Vietnamese-style Wings or Ghost Wings 🔥🔥"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Egg Rolls (5)",
+            "price": "$8.99",
+            "description": "Crispy Vietnamese-style rolls with pork, shrimp, and vegetables"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Bo Bia (2)",
+            "price": "$8.99",
+            "description": "Fresh rolls with chinese sausage, jicama, herbs, and dried shrimp"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Seasoned Fries",
+            "price": "$8.99",
+            "description": "Golden fries tossed in savory seasonings"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Spring Rolls (2)",
+            "price": "$8.99",
+            "description": "Fresh rolls with shrimp, pork, herbs, and noodles"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Crab Rangoon (6)",
+            "price": "$8.99",
+            "description": "Crispy wontons filled with creamy crab mix"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Popcorn Chicken",
+            "price": "$10.99",
+            "description": "Crispy, spiced chicken bites with fried basil"
+          }
+        ]
+      },
+      {
+        "_type": "menuSection",
+        "title": "Pho & Noodle Soups",
+        "slug": {
+          "_type": "slug",
+          "current": "pho-noodles"
+        },
+        "layout": "grid",
+        "items": [
+          {
+            "_type": "menuItem",
+            "name": "House Special Pho",
+            "price": "$14.99",
+            "description": "Special pho with rare steak, brisket, tripe, tendon, and meatballs"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Rare Steak Pho",
+            "price": "$14.99",
+            "description": "Pho with thinly sliced rare steak"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Beef Meatball Pho",
+            "price": "$14.99",
+            "description": "Pho with savory beef meatballs"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Roast Duck Noodle Soup",
+            "price": "$16.99",
+            "description": "Egg noodle soup with flavorful duck"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Rare Steak & Tripe Pho",
+            "price": "$14.99",
+            "description": "Pho with rare steak and crunchy tripe"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Seafood Egg Noodle Soup",
+            "price": "$14.99",
+            "description": "Soup with shrimp, crab, and calamari with rice noodle or egg noodle"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Rare Steak & Tendon Pho",
+            "price": "$14.99",
+            "description": "Pho with rare steak and soft tendon"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Chicken Pho",
+            "price": "$14.99",
+            "description": "Classic pho with tender chicken slices"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Rare Steak & Brisket Pho",
+            "price": "$14.99",
+            "description": "Pho with rare steak and tender brisket"
+          }
+        ]
+      },
+      {
+        "_type": "menuSection",
+        "title": "Specialty",
+        "slug": {
+          "_type": "slug",
+          "current": "specialty"
+        },
+        "layout": "grid",
+        "items": [
+          {
+            "_type": "menuItem",
+            "name": "Bun Bo Hue",
+            "price": "$16.99",
+            "description": "Spicy Beef Noodle Soup. Bold and spicy broth with beef and pork"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Banh Xeo",
+            "price": "$17.99",
+            "description": "Crispy crepe with pork, shrimp, mung bean, beansprout, and carrot"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Beef Stew Noodle Soup",
+            "price": "$16.99",
+            "description": "Vietnamese stew with tender beef with rice noodle or egg noodle"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Beef Stew Soup + Bread",
+            "price": "$16.99",
+            "description": "Vietnamese stew with tender beef and Vietnamese baguette"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Banh Canh Cua",
+            "price": "$16.99",
+            "description": "Thick, savory broth with crab and chewy udon noodles"
+          }
+        ]
+      },
+      {
+        "_type": "menuSection",
+        "title": "Vermicelli",
+        "slug": {
+          "_type": "slug",
+          "current": "vermicelli"
+        },
+        "modifierText": "Grilled Shrimp +$4 Egg Rolls +$3 Fried Egg +$3",
+        "layout": "grid",
+        "items": [
+          {
+            "_type": "menuItem",
+            "name": "Bun Thit Nuong",
+            "price": "$15.99",
+            "description": "Rice vermicelli topped with grilled pork and fresh herbs"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Bun Bo Nuong",
+            "price": "$16.99",
+            "description": "Rice vermicelli with marinated, grilled beef and herbs"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Bun Tom Nuong",
+            "price": "$16.99",
+            "description": "Rice vermicelli topped with grilled shrimp and fresh herbs"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Bun Bo Xao",
+            "price": "$16.99",
+            "description": "Rice vermicelli with stir-fried beef, vegetables, and herbs"
+          }
+        ]
+      },
+      {
+        "_type": "menuSection",
+        "title": "Rice Dishes",
+        "slug": {
+          "_type": "slug",
+          "current": "rice-dishes"
+        },
+        "modifierText": "Grilled Shrimp +$4 Egg Rolls +$3 Fried Egg +$3",
+        "layout": "grid",
+        "items": [
+          {
+            "_type": "menuItem",
+            "name": "Com Thit Nuong",
+            "price": "$15.99",
+            "description": "Steamed rice served with grilled pork"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Korean Shortribs Over Rice",
+            "price": "$19.99",
+            "description": "Tender, marinated short ribs served over steamed rice"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Com Bo Nuong",
+            "price": "$16.99",
+            "description": "Steamed rice topped with marinated, grilled beef"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Beef Stew Over Rice",
+            "price": "$16.99",
+            "description": "Hearty Vietnamese beef stew served with steamed rice"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Roast Duck Over Rice",
+            "price": "$16.99",
+            "description": "Savory roast duck served with baby bok choy over rice with a tangy sauce"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Heart Stopper",
+            "price": "$21.99",
+            "description": "Shrimp and pork fried rice with grilled pork and fried egg"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Crispy Salted Chicken",
+            "price": "$15.99",
+            "description": "Tender chicken braised and fried to crispy perfection seated over steamed rice"
+          },
+          {
+            "_type": "menuItem",
+            "name": "★ Heaven & Earth",
+            "price": "$24.99",
+            "description": "Roast duck and tender roast pork over rice, drizzled with savory-sweet soy sauce"
+          }
+        ]
+      },
+      {
+        "_type": "menuSection",
+        "title": "Entree",
+        "slug": {
+          "_type": "slug",
+          "current": "entree"
+        },
+        "layout": "grid",
+        "items": [
+          {
+            "_type": "menuItem",
+            "name": "Lemongrass Chicken",
+            "price": "$14.99",
+            "description": "Stir-fried chicken with onion, and fragrant lemongrass"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Mapo Tofu",
+            "price": "$15.99",
+            "description": "Silken tofu in a spicy, flavorful Sichuan-style sauce with ground pork"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Honey Walnut Shrimp",
+            "price": "$19.99",
+            "description": "Crispy shrimp coated in a sweet honey glaze, topped with candied walnuts"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Salt & Pepper Calamari",
+            "price": "$16.99",
+            "description": "Crispy calamari stir-fried with salt, pepper, and scallions"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Salt & Pepper Shrimp",
+            "price": "$16.99",
+            "description": "Shrimp stir-fried with salt, pepper, and scallions"
+          }
+        ]
+      },
+      {
+        "_type": "menuSection",
+        "title": "Fried Rice",
+        "slug": {
+          "_type": "slug",
+          "current": "fried-rice"
+        },
+        "layout": "grid",
+        "items": [
+          {
+            "_type": "menuItem",
+            "name": "Pork Fried Rice",
+            "price": "$14.99",
+            "description": "Wok-fried rice with seasoned pork and green onion"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Shrimp & Pork Fried Rice",
+            "price": "$14.99",
+            "description": "Fried rice with shrimp, pork, and green onion"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Chicken Fried Rice",
+            "price": "$14.99",
+            "description": "Wok-fried rice with chicken and green onion"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Duck Fried Rice",
+            "price": "$16.99",
+            "description": "Savory fried rice with tender, flavorful duck"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Beef Fried Rice",
+            "price": "$14.99",
+            "description": "Flavorful fried rice with tender beef and onion"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Shrimp Fried Rice",
+            "price": "$14.99",
+            "description": "Fried rice with juicy shrimp and green onion"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Vegetable Fried Rice",
+            "price": "$14.99",
+            "description": "Fried rice with mixed vegetables"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Yang Chow Fried Rice",
+            "price": "$16.99",
+            "description": "Classic fish sauce fried rice with dried shrimp, chinese sausage, prawns, and green onion"
+          }
+        ]
+      },
+      {
+        "_type": "menuSection",
+        "title": "Banh Mi",
+        "slug": {
+          "_type": "slug",
+          "current": "banh-mi"
+        },
+        "subHeader": "Vietnamese Sandwiches",
+        "layout": "grid",
+        "items": [
+          {
+            "_type": "menuItem",
+            "name": "Grilled Pork",
+            "price": "$8.99",
+            "description": "Baguette filled with grilled pork, pickled vegetables, and herbs"
+          },
+          {
+            "_type": "menuItem",
+            "name": "BBQ Pork",
+            "price": "$8.99",
+            "description": "Baguette stuffed with sweet and savory char siu pork, pickled vegetables, and fresh herbs"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Grilled Chicken",
+            "price": "$8.99",
+            "description": "Baguette filled with flavorful chicken, pickled vegetables, and herbs"
+          }
+        ]
+      },
+      {
+        "_type": "menuSection",
+        "title": "Sides",
+        "slug": {
+          "_type": "slug",
+          "current": "sides"
+        },
+        "layout": "grid",
+        "items": [
+          {
+            "_type": "menuItem",
+            "name": "Rice/Egg Noodles",
+            "price": "$3.00"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Steamed Rice",
+            "price": "$3.00"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Extra Broth",
+            "price": "$3.00"
+          }
+        ]
+      },
+      {
+        "_type": "menuSection",
+        "title": "Drinks",
+        "slug": {
+          "_type": "slug",
+          "current": "drinks"
+        },
+        "layout": "grid",
+        "items": [
+          {
+            "_type": "menuItem",
+            "name": "Cold Drinks",
+            "price": "$2.99",
+            "description": "Coke, Sprite, Root Beer, Red Bull, Arizona, Sunny D, Apple Juice"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Juice",
+            "price": "$3.99",
+            "description": "Rambutan, guava, passion fruit, lychee, mango, pineapple, dragon fruit"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Fresh Squeezed Juice",
+            "price": "$5.99",
+            "description": "Orange juice, Lime juice (vietnamese limeade)"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Ca Phe Sua Da",
+            "price": "$4.99",
+            "description": "Traditional Vietnamese iced coffee drink"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Thai Iced Tea",
+            "price": "$4.99"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Hot Tea",
+            "price": "$1.99"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Soy Milk Can",
+            "price": "$2.99"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Soy Milk Bottle",
+            "price": "$3.99"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Herbal Tea Can",
+            "price": "$2.99"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Grass Jelly",
+            "price": "$2.99"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Aloe Vera",
+            "price": "$2.99"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Jarritos",
+            "price": "$3.99"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Bottled Water",
+            "price": "$1.99"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Coconut Water",
+            "price": "$3.99"
+          }
+        ]
+      },
+      {
+        "_type": "menuSection",
+        "title": "Boba",
+        "slug": {
+          "_type": "slug",
+          "current": "boba"
+        },
+        "layout": "boba",
+        "boba": {
+          "title": "Boba",
+          "price": "$5.99",
+          "flavorsSubtitle": "Available Flavors",
+          "flavors": [
+            "Mango",
+            "Pineapple",
+            "Passion Fruit",
+            "Strawberry",
+            "Cantaloupe",
+            "Ube/Taro",
+            "Cappuccino",
+            "Coffee",
+            "Lychee",
+            "Durian",
+            "Peach",
+            "Watermelon",
+            "Banana"
+          ]
+        }
+      },
+      {
+        "_type": "menuSection",
+        "title": "Sugar Cane",
+        "slug": {
+          "_type": "slug",
+          "current": "sugar-cane"
+        },
+        "modifierText": "Nuoc Mia (Sugar Cane Juice)",
+        "layout": "grid",
+        "items": [
+          {
+            "_type": "menuItem",
+            "name": "Dragon Fruit",
+            "price": "$6.99"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Passion Fruit",
+            "price": "$6.99"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Mango",
+            "price": "$6.99"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Orange",
+            "price": "$6.99"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Kumquat",
+            "price": "$6.99"
+          }
+        ]
+      },
+      {
+        "_type": "menuSection",
+        "title": "Desserts",
+        "slug": {
+          "_type": "slug",
+          "current": "desserts"
+        },
+        "layout": "grid",
+        "items": [
+          {
+            "_type": "menuItem",
+            "name": "Sugar Donuts (10)",
+            "price": "$7.99",
+            "description": "Donut with crispy outside, soft inside, and coated in sugar"
+          },
+          {
+            "_type": "menuItem",
+            "name": "Sesame Balls (9)",
+            "price": "$4.99",
+            "description": "Crispy, chewy pastry with red bean filling"
+          }
+        ]
+      }
+    ]
+  }
+}
