@@ -1,4 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
+const sanityProjectId =
+  process.env.NUXT_PUBLIC_SANITY_PROJECT_ID || '03e15w02'
+
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
@@ -32,6 +36,11 @@ export default defineNuxtConfig({
     buildAssetsDir: '/_nuxt/',
     head: {
       link: [
+        {
+          rel: 'preconnect',
+          href: `https://${sanityProjectId}.apicdn.sanity.io`,
+          crossorigin: 'anonymous',
+        },
         {
           rel: 'preconnect',
           href: 'https://fonts.googleapis.com'

@@ -29,7 +29,7 @@
 </template>
 
 <script setup lang="ts">
-const { settings } = await useSanitySiteSettings()
+const { settings } = useSanitySiteSettings()
 </script>
 
 <style lang="scss">

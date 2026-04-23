@@ -73,7 +73,7 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted, ref, computed } from "vue";
 
-const { menu } = await useSanityMenuPage();
+const { menu } = useSanityMenuPage();
 
 const sectionIds = computed(
   () => menu.value.sections?.map((s) => s.slug).filter(Boolean) as string[],

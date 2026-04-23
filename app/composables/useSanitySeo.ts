@@ -1,4 +1,4 @@
-import type { SiteSettings } from './useSanitySiteSettings'
+import type { SiteSettings } from './useSanityContent'
 
 export function useSanitySeo(settings: Ref<SiteSettings>) {
   watchEffect(() => {

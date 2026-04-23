@@ -70,7 +70,7 @@
 const route = useRoute()
 const isMenuPage = computed(() => route.path === '/menu')
 
-const { settings } = await useSanitySiteSettings()
+const { settings } = useSanitySiteSettings()
 useSanitySeo(settings)
 </script>
 
