@@ -4,20 +4,16 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "build:netlify": "npm run sanity:pull-seed && npm run build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "static": "nuxt generate",
-    "sanity:pull-seed": "node scripts/pull-sanity-seed.mjs",
-    "sanity:seed-json": "node scripts/pull-sanity-seed.mjs",
-    "sanity:seed-json:bootstrap": "node scripts/generate-sanity-seed-json.mjs",
+    "sanity:seed-json": "node scripts/generate-sanity-seed-json.mjs",
     "sanity:seed": "cd studio && npm run seed",
     "studio": "cd studio && npm run dev"
   },
   "dependencies": {
-    "@sanity/client": "^6.29.1",
     "@nuxtjs/sanity": "^2.3.0",
     "groq": "^5.22.0",
     "nuxt": "^4.0.3",

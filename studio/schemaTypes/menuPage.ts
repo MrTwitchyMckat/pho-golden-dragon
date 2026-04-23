@@ -26,9 +26,9 @@ export const menuPage = defineType({
       name: 'rawConsumptionWarning',
       title: 'Raw / undercooked consumer advisory',
       description:
-        'Northern Nevada–style menu advisory: name animal foods that may be raw/undercooked, include the standard reminder (foodborne disease / medical conditions), and state that written information is available on request.',
+        'FDA-style notice for items that may include raw or undercooked animal foods (e.g. rare steak pho, seafood, eggs). Shown on the public menu.',
       type: 'text',
-      rows: 4,
+      rows: 6,
     }),
     defineField({
       name: 'sections',
