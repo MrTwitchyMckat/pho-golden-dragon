@@ -1,4 +1,15 @@
 <template>
+  <div v-if="draftPreview" class="draft-banner" role="status">
+    <span>Draft preview — unpublished Sanity edits. The live site still shows published content.</span>
+    <a :href="`/api/draft/disable?next=${encodeURIComponent(route.path)}`">Exit preview</a>
+  </div>
+  <a
+    v-else-if="dev"
+    :href="`/api/draft/enable?next=${encodeURIComponent(route.path)}`"
+    class="draft-enter"
+    >Preview drafts</a
+  >
+
   <div
     v-if="pending"
     class="site-loader"
@@ -108,6 +119,13 @@
 <script setup lang="ts">
 const route = useRoute()
 const isMenuPage = computed(() => route.path === '/menu')
+const dev = import.meta.dev
+const draftCookie = useCookie('gd-draft-preview')
+// The enable route sets a raw "1". useCookie JSON-decodes that to the number 1.
+const draftPreview = computed(() => {
+  const value = draftCookie.value as unknown
+  return value === 1 || value === '1' || value === true
+})
 
 const { site: settings, ready, pending, error, refresh } = useSanityContent()
 
@@ -132,6 +150,62 @@ useSanitySeo(settings)
 </script>
 
 <style lang="scss">
+.draft-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  padding: 0.45rem 1rem;
+  background: var(--color-accent);
+  color: var(--color-text-black);
+  font-family: var(--font-primary), sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.draft-banner a {
+  color: var(--color-text-black);
+  font-weight: 700;
+  text-underline-offset: 2px;
+}
+
+.draft-enter {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 200;
+  background: var(--color-accent);
+  color: var(--color-text-black);
+  font-family: var(--font-primary), sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.55rem 0.8rem;
+  border-radius: 5px;
+}
+
+body:has(.draft-banner) .header {
+  top: 2.5rem;
+}
+
+body:has(.draft-banner) .page-content {
+  margin-top: calc(70px + 2.5rem);
+}
+
+body:has(.draft-banner) .site-loader,
+body:has(.draft-banner) .site-error {
+  padding-top: 4rem;
+}
+
 /* CSS Variables */
 :root {
   --color-background: #1a1a1a;
@@ -411,6 +485,10 @@ body {
 
   .page-content {
     margin-top: 65px;
+  }
+
+  body:has(.draft-banner) .page-content {
+    margin-top: calc(65px + 2.5rem);
   }
 
   .footer {

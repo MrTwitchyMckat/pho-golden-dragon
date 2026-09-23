@@ -25,6 +25,11 @@ export default defineNuxtConfig({
     apiVersion: '2025-02-19',
     perspective: 'published',
     useCdn: true,
+    // Dev-only proxy. `nuxt build` sets NODE_ENV=production, so the static
+    // Netlify bundle keeps fetching published content directly from the CDN.
+    // In `nuxt dev`, queries go through /api/sanity/query, which serves drafts
+    // when the gd-draft-preview cookie is set (/api/draft/enable).
+    queryEndpoint: process.env.NODE_ENV === 'production' ? '' : '/api/sanity/query',
   },
 
   // Configure for static generation (SSG)
